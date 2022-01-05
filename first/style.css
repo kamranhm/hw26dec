@@ -1,0 +1,27 @@
+html, body{
+    font-size: 100%;
+}
+.accordion{
+    margin: 50px;
+}
+.accordion dt, .accordion dd{
+    padding: 10px;
+    border: 1px solid #000;
+}
+.accordion dt a, .accordion dd a{
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+.accordion dt{
+    background-color: #ccc;
+}
+.accordion dd{
+    margin: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    font-size: 1rem;
+}
+.accordion dd:last-of-type{
+    border-bottom-width: 1px;
+}
